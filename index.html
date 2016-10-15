@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project: </title>
+    
+	<!-- your CSS stylesheet -->	
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  
+  	<!-- our original statement in jQuery was "I want to click a button to make an image appear or disappear." You have to write the HTML elements so jQuery has something to play with and target.  -->
+  	
+  	<!-- this is our image that will eventually appear or disappear. notice in the scripts.js file, our selector is this id -->
+  	<img src="img/medium01.jpg" id="disappear">
+  	
+  	<!-- this is the button that will fire the function. our selector in jQuery is this id on the a tag -->
+  	<p><a href="#" id="button-id">Click me and magic will happen!</a></p>
+
+
+<!-- JAVASCRIPT -->
+	<!-- always call the jquery script first! then call all your other scripts afterward. like with CSS, you have to link to jQuery and your script file or else nothing will work. -->
+	<script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
